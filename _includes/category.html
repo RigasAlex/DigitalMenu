@@ -1,0 +1,17 @@
+<div class="category-container">
+    <div class="vl"></div>
+    <div class="hspace half"></div>
+    <img class="icon" height="24" width="24" src="{{include.category.icon}}" />
+    <p class="category">{{include.category.title}}</p>
+    <hr>
+    <div class="hspace half"></div>
+    {% for item in include.category.items %}
+        <div class="item">
+            <p>{{item.name}}</p>
+            <p>{{item.price}} €</p>
+            <p class="note">{{item.notes}}</p>
+        </div>
+    {% endfor %}
+</div>
+
+<div class="hspace"></div>

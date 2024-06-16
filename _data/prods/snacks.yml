@@ -1,0 +1,15 @@
+icon: "/assets/img/icons/snack.png"
+title: Snacks
+items:
+  -
+      name: Toast 
+      price: "3.00"
+      notes: "Cheese, ham /  turkey"
+  -
+      name: Club Sandwich 
+      price: "6.50"
+      notes: Cheese, ham, lettuce, mayonnaise
+  -
+      name: Breakfast
+      price: "8.00"
+      notes: Cheese, Ham, Turkey, Egg, Bread, Honey, Jam, Milk, Juice, French Press Coffee

@@ -1,0 +1,28 @@
+icon: "/assets/img/icons/juice.png"
+title: Soft Drinks
+items:
+  -
+      name: Juices
+      price: "3.50"
+      notes: Orange, Sour Cherry, Banana, Mixed, Strawberry, Pineapple
+  -
+      name: Milkshakes
+      price: "6.00"
+      notes: Choose an ice cream flavor
+  -
+      name: Sorbet
+      price: "4.50"
+  -
+      name: Ice Tea
+      price: "3.50"
+  -
+      name: Chocolate
+      price: "6.00"
+      notes: Choose an ice cream flavor
+  -
+      name: Fresh Orange Juice
+      price: "6.00"
+      notes: Choose an ice cream flavor 
+  -
+      name: Homemade Lemonade
+      price: "5.00"

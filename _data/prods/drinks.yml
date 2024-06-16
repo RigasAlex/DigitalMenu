@@ -1,0 +1,23 @@
+icon: "/assets/img/icons/drink.png"
+title: Drinks 
+items:
+  -
+      name: Simple Drinks 
+      price: "6"
+      notes: Gin, Vodka, Rum, Tequila, Whisky
+  -
+      name: Whisky
+      price: "7.00"
+      notes: Tullamore Dew, Jameson Black Barrel
+  -
+      name: Rum
+      price: "7.00"
+      notes: "Havana Original, Havana Reserva"
+  -
+      name: Gin
+      price: "7.00"
+      notes: "Bombay"
+  -
+      name: Vodka
+      price: "7.00"
+      notes: Beluga 

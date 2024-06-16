@@ -1,0 +1,27 @@
+icon: "/assets/img/icons/beer.png"
+title: Beers
+items:
+  -
+      name: Bergina 0.33L
+      price: "3.00"
+  -
+      name: Fix 0.33L
+      price: "3.50"
+  -
+      name: Heineken 0.33L
+      price: "3.50"
+  - 
+      name: Amstel 0.33L
+      price: "3.50"
+  -
+      name: Corona 0.33L
+      price: "4.00"
+  -
+      name: Radler 0.33L
+      price: "6.00"
+  -
+      name: Draft 0.3L / 0.5L
+      price: 4.00 / 5.00
+  -
+      name: "Somersby"
+      price: "4.50"

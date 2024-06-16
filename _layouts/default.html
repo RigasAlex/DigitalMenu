@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="background"></div>
+    <page size="A4">
+      <div class="content">
+        <div class="hspace"></div>
+        <div class="half-half">
+            <h1>MENU</h1>
+            <div class="vertical-center">
+                <div>
+                    <p class="title">{{site.name}}</p>
+                    <hr>
+                </div>
+            </div>
+          </div>
+        <div class="hspace"></div>
+        {%- include category.html
+          category = site.data.prods.coffee
+        -%}
+        {%- include category.html
+          category = site.data.prods.softDrinks
+        -%}
+      </div>
+    </page>
+
+    <page size="A4">
+      <div class="content">
+        <div class="hspace"></div>
+        {%- include category.html
+          category = site.data.prods.beers
+        -%}
+        {%- include category.html
+          category = site.data.prods.wines
+        -%}
+      </div>
+    </page>
+
+    <page size="A4">
+      <div class="content">
+        <div class="hspace"></div>
+        {%- include category.html
+          category = site.data.prods.drinks
+        -%}
+        {%- include category.html
+          category = site.data.prods.cocktails
+        -%}
+      </div>
+    </page>
+
+    <page size="A4">
+      <div class="content">
+        <div class="hspace"></div>
+        {%- include category.html
+          category = site.data.prods.snacks
+        -%}
+      </div>
+    </page>
+
+
+
+    <!-- {% assign firstPage = true %}
+    {% for category in page.categories %}      
+      {% if category.page-create %}
+        <page size="A4">
+          <div class="content">
+            {% if firstPage == true %} {% assign firstPage = false %}
+            <div class="hspace"></div>
+            <div class="half-half">
+                <h1>MENU</h1>
+                <div class="vertical-center">
+                    <div>
+                        <p class="title">{{site.name}}</p>
+                        <hr>
+                    </div>
+                </div>
+              </div>
+              <div class="hspace"></div>
+            {% endif %}
+      {% endif %}
+
+      {%- include category.html
+        category = category
+      -%}
+            
+      {% if category.page-end == true %} 
+        </div>
+        </page>
+      {% endif %}
+    {% endfor %} -->
+
+  </body>
+</html>

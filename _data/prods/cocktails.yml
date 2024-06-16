@@ -1,0 +1,50 @@
+icon: "/assets/img/icons/cocktail.png"
+title: Cocktails
+items:
+  -
+      name: Signature 
+      price: "8.00"
+  -
+      name: Mojito 
+      price: "8.00"
+      notes: Rum, Lime, Sugar, Mint
+  -
+      name: Margarita
+      price: "8.00"
+      notes: Tequila, Lemon, Triple Sec
+  -
+      name: Pina Colada
+      price: "8.00"
+      notes: "Rum, Lime, Coca Cola"
+  -
+      name: Cuba Libre
+      price: "8.00"
+      notes: Rum, Lime, Coca Cola
+  -
+      name: Negroni
+      price: "8.00"
+      notes: Gin, Campari, Rosso
+  -
+      name: Aperol Spritz
+      price: "8.00"
+      notes: Aperol, Soda, Prossecco
+  -
+      name: Caipirinha
+      price: "8.00"
+      notes: Vodka, Lime, Sugar
+  -
+      name: Long Island
+      price: "9.00"
+      notes: Tequila, Gin, Vodka, Rum, Triple Sec, Lemon Juice, Coca Cola
+  -
+      name: Mai Tai
+      price: "9.00"
+      notes: Rum, Orange Liqueur, Lime
+  -
+      name: Daiguiri
+      price: "9.00"
+      notes: Rum, Lime, Sugar
+  -
+      name: Zombie
+      price: "9.00"
+      notes: Rum, Cointreau, Brandy, Grenadine, Pineapple Juice, Orange Juice, Lime

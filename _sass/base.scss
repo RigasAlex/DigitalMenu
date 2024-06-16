@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(3px);
+
+  // padding: 20px 0;
+  position: relative;
+  // background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #444cf7, #444cf7 50%, #e5e5f7 50%);
+  // background-size: 10px 10px;
+
+}
+
+.background {
+  background-color: #e5e5f7;
+  background-image: url(/assets/img/backgorund.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  filter: blur(3px);
+  height: calc(100% + 40px);
+  top: -20px;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  z-index: -10;
+
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 300;
+}
+
+hr {
+  border: 1.5px solid #888;
+
+}
+
+.vl {
+  border-left: 3px solid #888;
+  height: 100%;
+  position: absolute;
+  margin-left: 28px;
+}
+
+page {
+  position: relative;
+  background: #f6eee5;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  margin-top: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page::before {    
+  content: "";
+  background-image: url(/assets/img/paper-texure.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+page[size="A4"] { 
+  // aspect-ratio: 21/29.7; 
+  border-radius: 5px;
+  width: calc(100% - 16px);
+  max-width: 21cm;
+  min-height: 600px;
+}
+
+.category-container {
+  position: relative;
+}
+
+.content {
+  padding: 60px 100px 10px 100px;
+}
+
+.hspace {
+  height: 40px;
+}
+
+.hspace.half {
+  height: 20px;
+}
+
+.half-half {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-half > * {
+  flex: 2 1 auto;
+}
+
+.title, .category {
+  font-size: 18px;
+  font-weight: 600;
+  color: #365E32;
+  /* color: #81A263; */
+}
+
+.title {
+  text-align: center;
+}
+
+.category {
+  margin-left: 55px;
+  margin-bottom: 4px;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-center > * {
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 43px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.note {
+  flex: 100%;
+  font-size: 11px;
+}
+
+.icon {
+  position: absolute;
+  top: 18px;
+  left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+      padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 54px;
+  }
+
+  .title, .category {
+    font-size: 18px;
+  }
+
+  .item {
+    margin-left: 43px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    font-size: 11px;
+  }
+
+  .note {
+    font-size: 8px;
+  }
+}

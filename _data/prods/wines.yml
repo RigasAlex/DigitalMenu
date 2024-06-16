@@ -1,0 +1,31 @@
+icon: "/assets/img/icons/wine.png"
+title: Wines 
+items:
+  -
+      name: Agioritiko
+      price: "4.50"
+      notes: Red 187ml
+  -
+      name: Boutari (Red)
+      price: "4.50"
+      notes: Red 187ml
+  -
+      name: Moschofilero
+      price: "4.50"
+      notes: White 187ml
+  -
+      name: Boutari (White)
+      price: "4.50"
+      notes: White 187ml
+  -
+      name: Caramelo
+      price: "4.50"
+      notes: Rose 187ml
+  -
+      name: Bianconero (White)
+      price: "5.50"
+      notes: White Sparkling 200ml
+  -
+      name: Bianconero (Pink)
+      price: "5.50"
+      notes: Pink Sparkling 200ml

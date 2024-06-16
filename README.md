@@ -1,5 +1,5 @@
 # A Simple Digital Menu
-A simple digital meny to use with QR code. An easy way to upgrade products and categories for the menu
+A simple digital menu to use with QR code. An easy way to upgrade products and categories for the menu
 
 ![screenshot](./screenshot.png)
 
@@ -15,7 +15,7 @@ A simple digital meny to use with QR code. An easy way to upgrade products and c
 
 # How to start
 
-1. Inside the folder AMEBAR run `jekyll serve --host=<your local ip>` 
+1. Run `jekyll serve --host=<your local ip>` 
 
 # More
 Inside the _data is the structure for the products there you can add or remove products or categories.
